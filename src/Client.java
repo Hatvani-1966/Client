@@ -1,9 +1,18 @@
 public class Client {
 
-    public static void main (String[]args)
-    Client Client - new Client();
-    client.name = "Jack London";
-    client.yearofBirth=1876;
-    System.out.print.ln(client.name);;
-    System.out.print.ln (client.yearofBirth);
+    String name;
+    int yearofBirth;
+    String address
+
+    public static void main (String[]args){
+        Client client = new Client();
+        client.name = "Jack London";
+        client.yearofBirth=1876;
+        client.address="Canada"
+        System.out.println(client.name);;
+        System.out.println(client.yearofBirth);
+        System.out.println(client.address);
+
+            }
+
 }
